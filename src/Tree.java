@@ -17,6 +17,10 @@ public class Tree {
         }
     }
 
+    public Tree(Integer root) {
+        this(root, new ArrayList<Tree>());
+    }
+
     public boolean isEmpty() {
         return (root == null);
     }
