@@ -213,11 +213,11 @@ public class Tree {
             return true;
         } else {
             for (Tree subtree : subtrees) {
-                if (subtree,insertChild(item, parent)) {
+                if (subtree.insertChild(item, parent)) {
                     return true;
                 }
-                return false;
             }
+            return false;
         }
     }
 }
